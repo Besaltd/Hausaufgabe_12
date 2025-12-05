@@ -1,0 +1,25 @@
+
+ 1017  ls -l
+ 1018  git clone git@github.com:Besaltd/Hausaufgabe_12.git
+ 1019  cd Hausaufgabe_12
+ 1020  git branch feature
+ 1021  git checkout -b feature
+ 1022  git checkout feature
+ 1023  ls -l
+ 1024  nano README.md
+ 1025  git add .
+ 1026  git commit -m "Inital changes in feature"
+ 1027  git push
+ 1028  git push --set-upstream origin feature
+ 1029  git status
+ 1030  git commit --amend
+ 1031  git checkout main
+ 1032  git merge feature
+ 1033  git status
+ 1034  history > history.txt
+ 1035  nano history.txt
+ 1036  rm -rf history.txt
+ 1037  ls -l
+ 1038  history | tail -n 15 >> history.txt
+ 1039  nano history.txt
+ 1040  rm -rf history.txt
